@@ -57,9 +57,11 @@ body {
 }
 
 .hero-content {
+    display: flexbox;
     width: 100%;
     max-width: 1000px;
-    text-align: center;
+    text-align: center; /*vertical centering*/
+    justify-content: center; /*horizonal centering*/
     padding: 24px;
     margin: 0 auto;
 }
@@ -178,9 +180,9 @@ a:hover, a:active {
     border: 2px solid #333333;
 }
 .hero-content .btn:hover, .hero-content .btn:active {
-    background: #333333;
+    background: #74b44a;
     color: #F1F1F1;
-    border: 2px solid #666666;
+    border: 2px solid #74b44a;
 }
 
 .btn, .btn:visited  {
@@ -285,6 +287,7 @@ footer {
 ========================================================================== */
 
 .aboutme-photo {
+    <img src="img\dianeJohnson" alt="Diane Johnson picture">
     width: 100%;
     max-width: 320px;
 }
